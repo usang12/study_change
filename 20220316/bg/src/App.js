@@ -5,9 +5,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home from './Home';
-import Question from './Question';
-import Result from './Result';
+import Home from './pages/Home/Home';
+import Question from './pages/Question/Question';
+import Result from './pages/Result/Result';
 
 
 function LoadingPage() {
